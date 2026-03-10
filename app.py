@@ -310,7 +310,7 @@ def load_model():
 
     model_path = hf_hub_download(
         repo_id="abrar-hero/mae-image-reconstruction",
-        filename="mae_model.pth",
+        filename="mae_model1.pth",
         cache_dir="./models"
     )
 
